@@ -1,0 +1,4 @@
+# robots.txt for http://www.maidsafe.net/
+
+User-agent: *
+Disallow: /WEB-INF/ # This is an infinite virtual URL space

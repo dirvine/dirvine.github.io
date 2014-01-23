@@ -1,22 +1,17 @@
 <html>
 <head>
+<script src="jquery.js"></script>
 <title></title>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js">
-$(function(){
-    $("#header").load("header.html"); 
-      $("#footer").load("footer.html"); 
-      });
-</script> 
 </head>
 <body>
 <div id="header"></div>
 <body id="home">
 <div id="container">
     <div id="main">
-        <?php include('includes/nav.php'); ?>
+        <div id="nav"></div>
         <div class="banner">
             <div class="container-12">
-                <div class="plane" title="privacy secutiry freedom"></div>
+                <div class="plane" title="privacy security freedom"></div>
             </div>
         </div>
         
@@ -119,5 +114,12 @@ height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
 		}
 	</script>
   <div id="footer"></div>
+<script>
+$(function(){
+    $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+      $("#nav").load("nav.html"); 
+      });
+</script> 
   </body>
   </html>

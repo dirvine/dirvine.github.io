@@ -1,69 +1,64 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1, minimum-scale=1">
 
-<title>MaidSafe</title>
-<meta name="description" content="MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all" />
-<meta name="keywords" content="MaidSafe distributed platform encryption"/>
-<meta name="author" content="MaidSafe" />
-<meta name="robots" content="index, follow" />
-<meta name="googlebot" content="index, follow" />
-<meta name="robots" content="all" />
-<meta name="revisit-after" content="30 days" />
+  <title>MaidSafe</title>
+  <meta name="description" content=
+  "MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all">
+  <meta name="keywords" content=
+  "MaidSafe distributed platform encryption">
+  <meta name="author" content="MaidSafe">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="robots" content="all">
+  <meta name="revisit-after" content="30 days">
 
-<!-- Favicons -->
-<link rel="shortcut icon" href="/images/favicon.ico" />
-<link rel="icon" type="image/ico" href="/images/favicon.ico" />
-  
-<!-- CSS -->
-<link rel="stylesheet" type="text/css" href="/css/rwdgrid.css"/>
-<link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="icon" type="image/ico" href="images/favicon.ico">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/rwdgrid.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!-- CSS for forms 
+<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+<link rel="stylesheet" type="text/css" href="css/stakeholders.css"/>-->
 
-<!-- CSS for forms 
-<link rel="stylesheet" type="text/css" href="/css/contact.css"/>
-<link rel="stylesheet" type="text/css" href="/css/stakeholders.css"/>-->
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="library/js/jquery-1.9.1.min.js"><\/script>')</script>
-<script>
-
-jQuery( document ).ready( function( $ ) {
-	
-		$('body').addClass('js');
-		  var $menu = $('#menu'),
-		  	  $menulink = $('.menu-link'),
-		  	  $menuTrigger = $('.has-submenu > a');
-
-		$menulink.click(function(e) {
-			e.preventDefault();
-			$menulink.toggleClass('active');
-			$menu.toggleClass('active');
-		});
-
-		$menuTrigger.click(function(e) {
-			e.preventDefault();
-			var $this = $(this);
-			$this.toggleClass('active').next('ul').toggleClass('active');
-		});
-
-		
-});
+  <script src=
+  "http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
 </script>
+  <script>
+window.jQuery || document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"><\/script>')
+  </script>
+  <script>
+  jQuery( document ).ready( function( $ ) {
+                $('body').addClass('js');
+                  var $menu = $('#menu'),
+                          $menulink = $('.menu-link'),
+                          $menuTrigger = $('.has-submenu > a');
 
-<!-- IE Fix for Sticky Footer -->
-<!--[if !IE 7]>
-	<style type="text/css">
-		#wrap {display:table;height:100%}
-	</style>
+                $menulink.click(function(e) {
+                        e.preventDefault();
+                        $menulink.toggleClass('active');
+                        $menu.toggleClass('active');
+                });
+
+                $menuTrigger.click(function(e) {
+                        e.preventDefault();
+                        var $this = $(this);
+                        $this.toggleClass('active').next('ul').toggleClass('active');
+                });
+
+  });
+  </script><!-- IE Fix for Sticky Footer -->
+  <!--[if !IE 7]>
+        <style type="text/css">
+                #wrap {display:table;height:100%}
+        </style>
 <![endif]-->
 
- <script type="text/javascript">
- var RecaptchaOptions = {
+  <script type="text/javascript">
+var RecaptchaOptions = {
     theme : 'clean'
- };
- </script>
+  };
+  </script>
 
-</head>
